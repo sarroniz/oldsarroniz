@@ -13,7 +13,7 @@ layout: default
        {% assign middlenames = '' %}
     {% endif %}
     {% assign lastname = name | last %}
-    <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
+    <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/" style="font-size:30px">
      <span class="font-weight-bold">{{ firstname }}</span> {{ middlenames }}  {{ lastname }}
     </a>
   </header>

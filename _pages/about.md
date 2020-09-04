@@ -2,22 +2,17 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="#">Indiana University</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <a href="https://spanport.indiana.edu" target="_blank">Department of Spanish & Portuguese</a>
+    <p>Indiana University</p>
+    <p>Bloomington, IN 47405</p>
 
 news: true
 social: true
 ---
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm a Ph.D. student in Hispanic Linguistics at Indiana University, Bloomington. I received my B.A. in English Studies and my M.A. in Linguistics, Literature, and Culture Studies both from University of Seville, Spain. After graduating, I moved to Bloomington, IN, where I completed my M.A. in Hispanic Linguistics, and where I am currently pursuing my Ph.D. in `Hispanic Linguistics` with a minor in `Computational Linguistics`. My main research interests include Phonetics and Phonology, Sociolinguistics, SLA, and Natural Language Processing. More recently, my research has focused on Laboratory Phonology and perception, as well as the acquisition of verbal humor by second language learners. Current projects include the perception of intonation, its role in verbal communication, and its effects on cross-dialectal understanding.

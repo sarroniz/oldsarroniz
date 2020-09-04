@@ -16,8 +16,8 @@
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
-      <span class="title">{{entry.title}}</span>
-      <span class="author">
+      <div class="title">{{entry.title}}</div>
+      <div class="author">
         {% for author in entry.author_array %}
           {% if forloop.length == 1 %}
             {% if author.last == site.scholar.last_name %}
@@ -49,9 +49,9 @@
             {% endunless %}
           {% endif %}
         {% endfor %}
-      </span>
+      </div>
 
-      <span class="periodical">
+      <div class="periodical">
       {% if entry.type == "article" %}
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
@@ -60,7 +60,7 @@
       {% if entry.year %}
         {{entry.year}}
       {% endif %}
-      </span>
+      </div>
     {% endif %}
 
     <span class="links">

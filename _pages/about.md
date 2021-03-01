@@ -21,4 +21,4 @@ I'm a Ph.D. student in Hispanic Linguistics at Indiana University, Bloomington. 
 
 My main research interests include Phonetics and Phonology, Sociolinguistics, SLA, and Natural Language Processing. More recently, my research has focused on Laboratory Phonology and perception, as well as the acquisition of verbal humor by second language learners. Current projects include the perception of intonation, its role in verbal communication, and its effects on cross-dialectal understanding.
 
-My CV is accessible [here]({{ site.url }}/assets/pdf/CV_02_01_2021.pdf).
+My CV is accessible [here]({{ site.url }}/assets/pdf/CV_02_01_2021.pdf) (last updated 02/01/2021).

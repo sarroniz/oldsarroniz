@@ -45,3 +45,17 @@ nav: true
 {% endfor %}
 
 </div>
+
+---
+
+**Teaching assignments:**
+
+- HISP-S 150: _Elementary Spanish II_ (Fall 2016 - in person)
+
+- HISP-S 200: _Second-year Spanish I_ (Fall 2017 - in person; Spring 2018 - in person)
+
+- HISP-S 250: _Second-year Spanish II_ (Spring 2017 - in person; Fall 2019 - in person)
+
+- HISP-S 280: _Spanish Grammar in Context_ (Spring 2020 - second half online)
+
+- HISP-S 326: _Introduction to Hispanic Linguistics_ (Fall 2020 - hybrid; Spring 2021 - fully online)

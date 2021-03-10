@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Indiana University</a>.
+#description: <a href="#">Indiana University</a>.
 
 profile:
   align: right

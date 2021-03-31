@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   address: >
     <a href="https://spanport.indiana.edu" target="_blank">Department of Spanish & Portuguese</a><p><br>
-    <a href="https://linguistics.indiana.edu" target="_blank">Department of Linguistics</a><p>
-    <p>Indiana University<p>
+    <a href="https://linguistics.indiana.edu" target="_blank">Department of Linguistics</a>
+    <p>Indiana University<p>     
     <p>Bloomington, IN 47405</p><br>
     <br>
 

@@ -19,6 +19,12 @@ last_updated: true # set to true if you want to display last updated in the foot
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
+# will use title and url fields
+# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+
+# -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
@@ -46,7 +52,7 @@ twitter_username: # your Twitter handle
 linkedin_username: santiago-arroniz
 scholar_userid: 77rMJL8AAAAJ&hl=es&oi=ao
 orcid_id: 0000-0003-2104-8217
-medium_username: # your Medium username
+medium_username: sarroniz
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: Santiago_Arroniz
@@ -54,6 +60,7 @@ blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
+dblp_url: # your DBLP profile url
 
 #contact_note: >
 #  You can even add a little note about which of these is the best way to reach you.
@@ -65,9 +72,9 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: sarroniz  # your blog must have a name for it to show up in the nav bar
-blog_description: some useful resources
-permalink: /blog/:year/:title/
+#blog_name: sarroniz  # your blog must have a name for it to show up in the nav bar
+#blog_description: some useful resources
+#permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
@@ -92,6 +99,18 @@ collections:
   teaching:
     output: true
     permalink: /teaching/:path/
+  Qualtrics:
+    output: true
+    permalink: /Qualtrics/:path/
+  Praat:
+    output: true
+    permalink: /Praat/:path/
+  R:
+    output: true
+    permalink: /R/:path/
+  NLP:
+    output: true
+    permalink: /NLP/:path/
 
 news_limit: 5
 
@@ -129,9 +148,11 @@ keep_files:
 plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
+  - jekyll-feed
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-twitter-plugin
+  - jekyll-sitemap
   - jemoji
 
 # -----------------------------------------------------------------------------
@@ -152,6 +173,7 @@ scholar:
 
   replace_strings: true
   join_strings: true
+  bibtex_filters:
 
   details_dir: bibliography
   details_layout: bibtex.html
@@ -170,6 +192,8 @@ enable_math:                true
 enable_tooltips:            false
 enable_darkmode:            true
 show_social_icons:          false
+enable_medium_zoom:         true
+enable_project_categories:  true
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -190,7 +214,7 @@ jquery:
   version: "3.5.1"
   integrity: "sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
 mathjax:
-  version: "3.1.2"
+  version: "3.2.0"
 mansory:
   version: "4.2.2"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
@@ -202,3 +226,6 @@ mdb:
 popper:
   version: "2.4.4"
   integrity: "sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A=="
+medium_zoom:
+  version: "1.0.6"
+  integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="

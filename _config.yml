@@ -99,6 +99,9 @@ collections:
   teaching:
     output: true
     permalink: /teaching/:path/
+  NLP:
+    output: true
+    permalink: /NLP/:path/
   Qualtrics:
     output: true
     permalink: /Qualtrics/:path/
@@ -108,9 +111,6 @@ collections:
   R:
     output: true
     permalink: /R/:path/
-  NLP:
-    output: true
-    permalink: /NLP/:path/
 
 news_limit: 5
 

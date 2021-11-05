@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-#description: <a href="#">Indiana University</a>.
+description: <a href="https://spanport.indiana.edu" target="_blank">IU Spanish & Portuguese</a><a> | </a><a href="https://linguistics.indiana.edu" target="_blank">IU Linguistics</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <a href="https://spanport.indiana.edu" target="_blank">Dept. of Spanish & Portuguese</a><p>    
-    <a href="https://linguistics.indiana.edu" target="_blank">Dept. of Linguistics</a>
-    <p>Indiana University</p>     
+    <p>Indiana University</p>
+    <p>GISB 2115</p>
+    <p>355 North Jordan Avenue</p>     
     <p>Bloomington, IN 47405</p><br>
     <br>
 

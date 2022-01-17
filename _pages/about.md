@@ -10,7 +10,7 @@ profile:
   address: >
     <p>Indiana University</p>
     <p>GISB 2115</p>
-    <p>355 North Jordan Avenue</p>     
+    <p>355 North Jordan Avenue</p>  
     <p>Bloomington, IN 47405</p><br>
     <br>
 
@@ -22,4 +22,4 @@ I'm a dual Ph.D. student in `Hispanic Linguistics` and `Computational Linguistic
 
 My main research interests include Phonetics and Phonology, Sociolinguistics, Machine Learning, and Natural Language Processing. More recently, my research has focused on Laboratory Phonology and perception, as well as the acquisition of verbal humor by second language learners. Current projects include the perception of intonation, its role in verbal communication, and its effects on cross-dialectal understanding. I am also an active developer of _[SEÑAL](https://www.sarroniz.com/projects/SEÑAL/)_, an ongoing collaborative project intended to evaluate different components of essays written by L2 Spanish learners using NLP techniques. 
 
-My CV is accessible [here]({{ site.url }}/assets/pdf/CV_02_01_2021.pdf) _(last updated 03/01/2021)_.
+My CV is accessible [here]({{ site.url }}/assets/pdf/CV_01_17_2022.pdf) _(last updated 01/17/2022)_.

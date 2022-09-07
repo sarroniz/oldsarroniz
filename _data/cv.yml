@@ -11,29 +11,22 @@
 - title: Education
   type: time_table
   contents:
-    - title: MA
+    - title: Master of Arts
       institution: University of Seville, Seville, Spain
       year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: MA
+        - Linguistics, Literature, and Cultural Studies
+    - title: Master of Arts
       institution: Indiana University, Bloomington, IN (USA)
       year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Hispanic Linguistics
 
     - title: Erasmus Exchange Program
       institution: Manchester Metropolitan University, Manchester, United Kingdom
       year: 2014
       description:
-        - Description 1.
-        - Description 2.
+        - Faculty of Languages, Linguistics and TESOL
 
 - title: Experience
   type: time_table

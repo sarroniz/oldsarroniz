@@ -61,3 +61,7 @@ nav: true
 - HISP-S 326: _Introduction to Hispanic Linguistics_ (Fall 2020 - hybrid; Spring 2021 - online)
 
 - HISP-S 315: _Spanish in the Business World_ (Fall 2021)
+
+- HISP-S 281: _Spanish Grammar in Context for Heritage Speakers_ (Spring 2022)
+
+- HISP-S 308: _Composition and Conversation in Spanish_ (Fall 2022)

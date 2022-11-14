@@ -6,7 +6,7 @@ description: <a href="https://spanport.indiana.edu" target="_blank">IU Spanish &
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Profile_Pic2.jpeg
   address: >
     <p>Indiana University</p>
     <p>GISB 2115</p>

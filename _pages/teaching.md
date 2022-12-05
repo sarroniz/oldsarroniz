@@ -64,4 +64,4 @@ nav: true
 
 - HISP-S 281: _Spanish Grammar in Context for Heritage Speakers_ (Spring 2022)
 
-- HISP-S 308: _Composition and Conversation in Spanish_ (Fall 2022)
+- HISP-S 308: _Composition and Conversation in Spanish_ (Fall 2022, Spring 2023)

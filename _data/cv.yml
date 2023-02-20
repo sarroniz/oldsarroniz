@@ -43,6 +43,7 @@
         - "HISP-S 315: Spanish in the Business World (Fall 2021)"
         - "HISP-S 280: Spanish Grammar in Context for Heritage Speakers (Spring 2022)"
         - "HISP-S 308: Composition and Conversation in Spanish (Fall 2022)"
+        - "HISP-S 308: Composition and Conversation in Spanish (Spring 2023)"
     
     - title: IUHPFL Language Instructor - León (Spain)
       institution: IU Honors Program in Foreign Languages, Bloomington, IN
@@ -79,9 +80,3 @@
       description:
         - Tasks included administrative work, attention to international students, email management and technical support.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: 
-      items: 
-        

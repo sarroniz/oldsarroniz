@@ -11,8 +11,8 @@ profile:
     <p>Indiana University</p>
     <p>GISB 2115</p>
     <p>355 North Jordan Avenue</p>  
-    <p>Bloomington, IN 47405</p><br>
-    <br>
+    <p>Bloomington, IN 47405</p>
+
 
 news: true
 selected_papers: true # includes a list of papers marked as "selected={true}"

@@ -48,7 +48,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: sarroniz
-twitter_username: # your Twitter handle
+twitter_username: ArronizSantiago
 linkedin_username: santiago-arroniz
 scholar_userid: 77rMJL8AAAAJ&hl=es&oi=ao
 orcid_id: 0000-0003-2104-8217
@@ -73,16 +73,39 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-#blog_name: sarroniz  # your blog must have a name for it to show up in the nav bar
-#blog_description: some useful resources
-#permalink: /blog/:year/:title/
+blog_name: blog  # your blog must have a name for it to show up in the nav bar
+blog_nav_title: blog
+blog_description: some useful resources
+permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
   enabled: true
 
+related_blog_posts:
+  enabled: true
+  max_related: 5
+
+# Giscus comments (RECOMMENDED)
+# Follow instructions on https://giscus.app/ to setup for your repo to fill out
+# the information below.
+giscus:
+  repo:     # <your-github-user-name>/<your-github-repo-name>
+  repo_id: 
+  category: Comments             # name of the category under which discussions will be created
+  category_id: 
+  mapping: title                 # identify discussions by post title
+  strict: 1                      # use strict identification mode
+  reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
+  input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
+  theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
+  emit_metadata: 0
+  lang: en
+
 # Comments
 disqus_shortname: # put your disqus shortname
+
+
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -153,8 +176,27 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-twitter-plugin
+  - jekyll-toc
   - jekyll-sitemap
   - jemoji
+
+# -----------------------------------------------------------------------------
+# Jekyll Archives
+# -----------------------------------------------------------------------------
+
+jekyll-archives:
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  layouts:
+    year: archive-year
+    tag: archive-tag
+    category: archive-category
+  permalinks:
+    year: '/blog/:year/'
+    tag: '/blog/tag/:name/'
+    category: '/blog/category/:name/'
+
+display_tags: ['CL', 'phono', 'code', 'tutorial', 'teaching'] # these tags will be displayed on the front page of your blog
+#display_categories: ['tutorial', 'teaching'] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

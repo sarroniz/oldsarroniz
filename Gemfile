@@ -9,6 +9,22 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-twitter-plugin'
     gem 'jekyll-sitemap'
+    gem 'jekyll-toc'
     gem 'jemoji'
     gem 'unicode_utils'
+    gem 'classifier-reborn'
+    gem 'jekyll-archives'
+    gem 'jekyll-diagrams'
+    gem 'jekyll-get-json'
+    gem 'jekyll-imagemagick'
+    gem 'jekyll-jupyter-notebook'
+    gem 'jekyll-link-attributes'
+    gem 'jekyll-minifier'
+    gem 'jekyll-twitter-plugin'
+    gem 'mini_racer'
+    gem 'webrick'
+end
+group :other_plugins do
+    gem 'feedjira'
+    gem 'httparty'
 end

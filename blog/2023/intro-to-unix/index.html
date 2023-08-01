@@ -12,7 +12,7 @@
   Santiago Arróniz
 
 
-  | Page not found
+  | Introduction to Unix
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics.
@@ -37,7 +37,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/404.html">
+<link rel="canonical" href="/blog/2023/intro-to-unix/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -101,8 +101,8 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item ">
-            <a class="nav-link" href="/blog/">blog</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
           </li>
           <!-- Other pages -->
           
@@ -204,19 +204,137 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Introduction to Unix</h1>
+    <p class="post-meta">July 15, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/tag/cl">
+          <i class="fas fa-hashtag fa-sm"></i> CL</a>  
+          <a href="/blog/tag/tutorial">
+          <i class="fas fa-hashtag fa-sm"></i> tutorial</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please go back to the <a href="/">home page</a>.</p>
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <ol>
+  <li>
+<strong>Introduction to Unix:</strong>
+    <ul>
+      <li>Unix is a powerful and versatile operating system known for its command-line interface (CLI) and multitasking capabilities.</li>
+      <li>Key features of Unix include file management, process control, networking, and security.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Terminal and Shell:</strong>
+    <ul>
+      <li>Unix commands are executed in a terminal, which provides a text-based interface.</li>
+      <li>The terminal runs a shell, such as Bash (Bourne Again SHell), where you type commands.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Navigating the File System:</strong>
+    <ul>
+      <li>Use the <code class="language-plaintext highlighter-rouge">ls</code> command to list files and directories in the current location.</li>
+      <li>Use <code class="language-plaintext highlighter-rouge">cd</code> to change directories (e.g., <code class="language-plaintext highlighter-rouge">cd /path/to/directory</code>).</li>
+      <li>Use <code class="language-plaintext highlighter-rouge">pwd</code> to print the current working directory.</li>
+    </ul>
+  </li>
+  <li>
+<strong>File and Directory Operations:</strong>
+    <ul>
+      <li>Create a new directory: <code class="language-plaintext highlighter-rouge">mkdir directory_name</code>.</li>
+      <li>Create a new empty file: <code class="language-plaintext highlighter-rouge">touch file_name</code>.</li>
+      <li>Copy files/directories: <code class="language-plaintext highlighter-rouge">cp source destination</code>.</li>
+      <li>Move files/directories: <code class="language-plaintext highlighter-rouge">mv source destination</code>.</li>
+      <li>Remove files: <code class="language-plaintext highlighter-rouge">rm file_name</code>.</li>
+      <li>Remove directories: <code class="language-plaintext highlighter-rouge">rm -r directory_name</code> (be cautious with this command).</li>
+    </ul>
+  </li>
+  <li>
+<strong>Working with Files:</strong>
+    <ul>
+      <li>View file content: <code class="language-plaintext highlighter-rouge">cat file_name</code> or <code class="language-plaintext highlighter-rouge">less file_name</code>.</li>
+      <li>Edit files: Use the text editor <code class="language-plaintext highlighter-rouge">vi</code> or <code class="language-plaintext highlighter-rouge">nano</code> (e.g., <code class="language-plaintext highlighter-rouge">nano file_name</code>).</li>
+    </ul>
+  </li>
+  <li>
+<strong>Redirection and Pipes:</strong>
+    <ul>
+      <li>Redirect output: Use <code class="language-plaintext highlighter-rouge">&gt;</code> to overwrite and <code class="language-plaintext highlighter-rouge">&gt;&gt;</code> to append (e.g., <code class="language-plaintext highlighter-rouge">echo "Hello" &gt; output.txt</code>).</li>
+      <li>Redirect input: Use <code class="language-plaintext highlighter-rouge">&lt;</code> to read from a file (e.g., <code class="language-plaintext highlighter-rouge">cat &lt; input.txt</code>).</li>
+      <li>Use pipes <code class="language-plaintext highlighter-rouge">|</code> to send the output of one command as input to another (e.g., <code class="language-plaintext highlighter-rouge">ls | grep keyword</code>).</li>
+    </ul>
+  </li>
+  <li>
+<strong>File Permissions:</strong>
+    <ul>
+      <li>Use <code class="language-plaintext highlighter-rouge">chmod</code> to change file permissions (e.g., <code class="language-plaintext highlighter-rouge">chmod 755 file_name</code>).</li>
+      <li>Permissions are represented as three sets of characters: owner, group, and others (e.g., <code class="language-plaintext highlighter-rouge">rwxr-xr-x</code>).</li>
+    </ul>
+  </li>
+  <li>
+<strong>Process Management:</strong>
+    <ul>
+      <li>View running processes: <code class="language-plaintext highlighter-rouge">ps</code> or <code class="language-plaintext highlighter-rouge">top</code>.</li>
+      <li>Terminate a process: <code class="language-plaintext highlighter-rouge">kill PID</code> (replace PID with the process ID).</li>
+    </ul>
+  </li>
+  <li>
+<strong>User Management:</strong>
+    <ul>
+      <li>Add a user: <code class="language-plaintext highlighter-rouge">sudo adduser username</code>.</li>
+      <li>Delete a user: <code class="language-plaintext highlighter-rouge">sudo deluser username</code>.</li>
+      <li>Change user: <code class="language-plaintext highlighter-rouge">su username</code>.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Package Management (Linux-specific):</strong>
+    <ul>
+      <li>Package managers install and manage software packages on Linux.</li>
+      <li>Common package managers include <code class="language-plaintext highlighter-rouge">apt</code> (Ubuntu, Debian), <code class="language-plaintext highlighter-rouge">yum</code> (Red Hat, CentOS), and <code class="language-plaintext highlighter-rouge">dnf</code> (Fedora).</li>
+    </ul>
+  </li>
+  <li>
+<strong>Getting Help:</strong>
+    <ul>
+      <li>Use <code class="language-plaintext highlighter-rouge">man</code> to access the manual pages for commands (e.g., <code class="language-plaintext highlighter-rouge">man ls</code>).</li>
+      <li>Online resources like tutorials and forums are valuable for learning Unix.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Remember, Unix has a vast array of commands and features beyond what’s covered here. This tutorial provides a foundation for getting started, but continued learning and practice will help you become proficient in Unix. Good luck!</p>
+
+    </div>
   </article>
 
-</div>
 
+  
+    
+    <br>
+    <hr>
+    <br>
+    <ul class="list-disc pl-8"></ul>
+
+    <!-- Adds related posts to the end of an article -->
+    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/recording-with-praat/">Recording with PRAAT</a>
+  </li>
+</div>
     </div>
 
     <!-- Footer -->
